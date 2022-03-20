@@ -85,6 +85,11 @@ a {
     color: #ffff;
 }
 
+a > span {
+    font-size: 20px;
+    font-family: "Times New Roman", Times, serif;
+}
+
 .card_words_location {
     display: inline-block;
     text-decoration: none;
@@ -109,12 +114,13 @@ a {
 
 .card_words_footer {
     padding-top: 50px;
+    font-style: italic;
 }
 
 @media only screen and (max-width: 600px) {
     .card_words_footer {
-        padding: 0;
-        font-size: 0.5rem;
+        padding-top: 50px;
+        font-size: 0.8rem;
     }
 }
 
