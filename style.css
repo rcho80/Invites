@@ -65,7 +65,7 @@ body {
     }
 }
 
-span {
+.amp_span {
     font-family: "Dancing Script", cursive;
 }
 
@@ -85,9 +85,15 @@ a {
     color: #ffff;
 }
 
-a > span {
+.a_span {
     font-size: 20px;
     font-family: "Times New Roman", Times, serif;
+}
+
+@media only screen and (max-width: 600px) {
+    .a_span {
+        font-size: 0.8rem;
+    }
 }
 
 .card_words_location {
